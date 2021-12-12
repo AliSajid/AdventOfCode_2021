@@ -3,7 +3,7 @@
 library(tidyverse)
 library(zoo)
 
-input_data_file <- "input/input_1A"
+input_data_file <- "input/input_1"
 
 data <- read_tsv(input_data_file, col_names = c("depth")) |>
     pull(depth)
